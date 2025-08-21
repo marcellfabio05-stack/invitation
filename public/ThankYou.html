@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation Letter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Klee+One&display=swap" rel="stylesheet">
+    <link href="ThankYou.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Thank You Card-->
+    <div class="ThankYou-card">
+        <h3 class="head1">Thank you for filling this form, I will keep you guys updated at the group. Thank You!!</h3>
+        <h2 class="head2">谢谢你们填写这份表格，我会在群里随时更新消息。谢谢！！</h2>
+    </div>
+
+    <!--Back Button-->
+    <button type="button" onclick="toStart()">Reset</button>
+
+    <script>
+        function toStart() {
+            // Clear saved data
+            sessionStorage.clear();
+            // Go back to Invitation page
+            window.location.href = "Invitation.html";
+        }
+    </script>
+</body>
+</html>

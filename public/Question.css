@@ -1,0 +1,368 @@
+body {
+    background: #F5F5DC; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 40px;
+    width: auto;
+}
+.Beginning-Card { 
+    background: #FAF5E4; 
+    padding: 10px; 
+    border-radius: 12px; 
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(218,165,32,0.45); 
+    text-align: center; 
+    margin-bottom: 0px;
+    margin-top: 20px; /* space between welcome and form */ 
+    max-width: 286px;
+}
+.form-container {
+  justify-content: center;
+  width: 100%;
+}
+
+.question1 {
+    background: #FAF5E4;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(218,165,32,0.45);
+    text-align: left;
+    margin-bottom: 20px; /* space between welcome and form */
+    max-width: 286px;
+    width: 100%;
+    margin: 20px auto;
+}
+.question2 {
+    background: #FAF5E4;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(218,165,32,0.45);
+    text-align: left;
+    margin-bottom: 20px; /* space between welcome and form */
+    max-width: 286px;
+    margin: 20px auto;
+}
+.question3 {
+    background: #FAF5E4;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(218,165,32,0.45);
+    text-align: left;
+    margin-bottom: 20px; /* space between welcome and form */
+    max-width: 286px;
+    margin: 20px auto;
+}
+.question4 {
+    background: #FAF5E4;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(218,165,32,0.45);
+    text-align: left;
+    margin-bottom: 20px; /* space between welcome and form */
+    max-width: 286px;
+    margin: 20px auto;
+}
+.question5 {
+    background: #FAF5E4;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(218,165,32,0.45);
+    text-align: left;
+    margin-bottom: 20px; /* space between welcome and form */
+    max-width: 286px;
+    margin: 20px auto;
+}
+h3 {
+    font-family: Edu NSW Act Cursive;
+    font-size: 18px;
+}
+h2 {
+    font-family: Ma Shan Zheng;
+    font-size: 25px;
+    color: #D32F2F;
+}
+h4 {
+    margin-bottom: 0px;
+    margin-top: 7px;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Edu NSW Act Cursive;
+    text-align: justify;
+}
+h3, h2 {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.char1 {
+    font-family: Ma Shan Zheng;
+    font-size: 21px;
+}
+.char2 {
+    font-family: Ma Shan Zheng;
+    font-size: 21px;
+}
+.char3 {
+    font-family: Ma Shan Zheng;
+    font-size: 21px;
+}
+.cclass {
+    font-family: Ma Shan Zheng;
+    font-size: 18px;
+    font-weight: normal;
+}
+p {
+    font-family: Edu NSW Act Cursive;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: justify;   
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.pc {
+    font-family: Ma Shan Zheng;
+    font-weight: normal;
+    font-size: 23px;
+    text-align: justify;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.container {
+    max-width: 286px;
+    font-family: Edu NSW Act Cursive;
+    font-size: 13px;
+    font-style: bold;
+    color: black;
+}
+ul.ks-cboxtags {
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ul.ks-cboxtags li{
+  display: flex;
+  margin-bottom: 4px;
+}
+ul.ks-cboxtags li label{
+    display: inline-block;
+    background-color: #f37575;
+    border: 3px solid #C41E3A;
+    color: #000000;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;    
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+ul.ks-cboxtags li label {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul.ks-cboxtags li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    width: 15px;
+    height: 15px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
+    padding: 2px 6px 2px 2px;
+    content: "";
+    background: url('dry-clean.png') no-repeat;
+    background-size: 16px;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label::before {
+    content: "";
+    background: url('check.png') no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    width: 15px;
+    height: 15px;
+    transform: rotate(-360deg);
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+    border: 3px solid #DAA520;
+    background-color: #FFD700;
+    color: #000000;
+    transition: all .2s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+  display: absolute;
+}
+ul.ks-cboxtags li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+ul.ks-cboxtags2 {
+    list-style: none;
+    padding-left: 15px;
+    margin-right: 15px;
+}
+ul.ks-cboxtags2 li {
+    display: flex;
+    margin-bottom: 4px;
+}
+ul.ks-cboxtags2 li label{
+    display: inline-block;
+    background-color: #f37575;
+    border: 3px solid #C41E3A;
+    color: #000000;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;    
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+ul.ks-cboxtags2 li label {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+ul.ks-cboxtags2 li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    width: 15px;
+    height: 15px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
+    padding: 2px 6px 2px 2px;
+    content: "";
+    background: url('dry-clean.png') no-repeat;
+    background-size: 16px;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags2 li input[type="radio"]:checked + label::before {
+    content: "";
+    background: url(check.png) no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    width: 15px;
+    height: 15px;
+    transform: rotate(-360deg);
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags2 li input[type="radio"]:checked + label {
+    border: 3px solid #DAA520;
+    background-color: #FFD700;
+    color: #000000;
+    transition: all .2s;
+}
+
+ul.ks-cboxtags2 li input[type="radio"] {
+  display: absolute;
+}
+ul.ks-cboxtags2 li input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+.input-container {
+    position: relative;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: EDU NSW ACT Cursive;
+    font-size: 15px;
+    padding-top: -30px;
+}   
+input {
+    width: 90%;
+    border: none;                       /* remove box border */
+    border-bottom: 2px solid #D3D3D3;    /* only bottom line */
+    padding-bottom: 5px;
+    margin-top: 2px;
+    margin-left: 12px;
+    font-size: 14px;
+    outline: none;                      /* remove highlight outline */
+    background: transparent;
+}
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    height: 2px;
+    width: 91%;
+    background: #000000;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+.input-container input:focus + .underline {
+    transform: scaleX(1);    
+}
+.button-container {
+    align-items: center;
+    margin: 20px; /* spacing from the form */
+}
+
+button {
+    background-color: #006400;
+    color: white;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #228B22;
+    transform: scale(1.05);
+}
+.button1 {
+    margin-left: 0px;
+}
+.button2 {
+    margin-left: 80px;
+}
+
