@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Invitation Letter</title>
-  <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Klee+One&display=swap" rel="stylesheet">
-  <link href="question.css" rel="stylesheet">
+  <link a href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link a href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Klee+One&display=swap" rel="stylesheet">
+  <link a href="question.css" rel="stylesheet">
 </head>
 <body>
   <!-- Beginning Card-->
@@ -127,7 +127,7 @@
 
   // Back button
   function goBack() {
-    window.location.href = "Invitation.html";
+    window.location.href = "index.html";
   }
 
   // Submit button → collect data + send to Formspree
@@ -148,7 +148,7 @@
     .then(response => {
       if (response.ok) {
         // Redirect to ThankYou.html after success
-        window.location.href = "ThankYou.html";
+        window.location.href = "thankyou.html";
       } else {
         alert("Something went wrong. Please try again.");
       }
