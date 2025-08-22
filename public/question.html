@@ -96,7 +96,7 @@
     <!-- Question 5 -->
     <div class="question5">
       <h4>
-        What color do you guys wanna wear? <span class="char3">(你们要穿什么颜色的衣服？)</span>
+        If you choose yes. What color do you guys wanna wear? <span class="char3">(如果你们选择要。你们要穿什么颜色的衣服？)</span>
       </h4>
       <div class="container">
         <label for="shirt">
@@ -129,11 +129,10 @@
   function goBack() {
     window.location.href = "index.html";
   }
-
   // Submit button → collect data + send to Formspree
   function goSubmit() {
     const form = document.querySelector("form");
-
+    
     // Use FormData to collect everything
     const formData = new FormData(form);
 
