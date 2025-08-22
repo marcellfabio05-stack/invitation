@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitation Letter</title>
+  <link a href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link a href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Klee+One&display=swap" rel="stylesheet">
+  <link a href="question.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Beginning Card-->
+  <div class="Beginning-Card">
+    <h3 class="head1">Please answer all of the question below</h3>
+    <h2 class="head2">请回答下面的所有问题</h2>
+  </div>
+
+  <!-- Info Card -->
+  <div class="Beginning-Card">
+    <p>
+      As you know, I will soon be pursuing my major in Taiwan. Before I leave, I would like to treat you all to a feast at our local Pizza Hut in Citra 8. The questions below are about the time, date, dress code, and the pizza flavors you would like. After you finish answering, I will collect the responses and decide on the best date and time for us to meet. I would be truly happy if you could join this Last Supper together with me!
+    </p>
+    <p class="pc">
+      大家都知道，我很快就要去台湾读大学了。在出发之前，我想请大家在 Citra 8 的必胜客一起聚餐。 下面的问题是关于聚会的时间、日期、着装，以及大家想要的披萨口味。 在你们回答完之后，我会收集所有的答案，并决定一个最合适的日期和时间。 如果大家能参加这场“最后的晚餐”，我会非常高兴！
+    </p>
+  </div>
+
+  <!-- START FORM -->
+  <form
+  action="https://formspree.io/f/xanbrwbe" method="POST">
+  <div class="form-container">
+    <!-- Hidden fields for name + cname (from Invitation) -->
+    <input type="hidden" name="name" id="hiddenName">
+    <input type="hidden" name="cname" id="hiddenCname">
+
+    <!-- Question 1 -->
+    <div class="question1">
+      <h4>
+        What is your favorite flavor of a pizza? <span class="char1">(你最喜欢什么口味的披萨？)</span>
+      </h4>
+      <div class="container">
+        <ul class="ks-cboxtags">
+          <li><input type="checkbox" id="MeatLovers" name="pizzas" value="Meat Lovers"><label for="MeatLovers">Meat Lovers <span class="cclass">(肉食爱好者)</span></label></li>
+          <li><input type="checkbox" id="ChickenLovers" name="pizzas" value="Chicken Lovers"><label for="ChickenLovers">Chicken Lovers <span class="cclass">(鸡肉爱好者)</span></label></li>
+          <li><input type="checkbox" id="CheeseLovers" name="pizzas" value="Cheese Lovers"><label for="CheeseLovers">Cheese Lovers <span class="cclass">(芝士爱好者)</span></label></li>
+          <li><input type="checkbox" id="TunaMelt" name="pizzas" value="Tuna Melt"><label for="TunaMelt">Tuna Melt <span class="cclass">(金枪鱼)</span></label></li>
+          <li><input type="checkbox" id="SuperSupreme" name="pizzas" value="Super Supreme"><label for="SuperSupreme">Super Supreme <span class="cclass">(超级至尊)</span></label></li>
+          <li><input type="checkbox" id="SuperSupremeChicken" name="pizzas" value="Super Supreme Chicken"><label for="SuperSupremeChicken">Super Supreme Chicken <span class="cclass">(鸡肉超级至尊)</span></label></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question2">
+      <h4>
+        At what date should we meet up? <span class="char2">(我们要几号见面？)</span>
+      </h4>
+      <div class="container">
+        <ul class="ks-cboxtags2">
+          <li><input type="radio" id="date1" name="date" value="26 August 2025"><label for="date1">26 Aug 2025 <span class="cclass">(2025年8月26号)</span></label></li>
+          <li><input type="radio" id="date2" name="date" value="27 August 2025"><label for="date2">27 Aug 2025 <span class="cclass">(2025年8月27号)</span></label></li>
+          <li><input type="radio" id="date3" name="date" value="28 August 2025"><label for="date3">28 Aug 2025 <span class="cclass">(2025年8月28号)</span></label></li>
+          <li><input type="radio" id="date4" name="date" value="29 August 2025"><label for="date4">29 Aug 2025 <span class="cclass">(2025年8月29号)</span></label></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question3">
+      <h4>
+        What hour do you guys prefer to meet up? <span class="char2">(你们想几点见面？)</span>
+      </h4>
+      <div class="container">
+        <ul class="ks-cboxtags2">
+          <li><input type="radio" id="hour1" name="hour" value="06.00 PM"><label for="hour1">06.00 PM <span class="cclass">(6点晚上)</span></label></li>
+          <li><input type="radio" id="hour2" name="hour" value="06.30 PM"><label for="hour2">06.30 PM <span class="cclass">(6点半晚上)</span></label></li>
+          <li><input type="radio" id="hour3" name="hour" value="07.00 PM"><label for="hour3">07.00 PM <span class="cclass">(7点晚上)</span></label></li>
+          <li><input type="radio" id="hour4" name="hour" value="07.30 PM"><label for="hour4">07.30 PM <span class="cclass">(7点半晚上)</span></label></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question4">
+      <h4>
+        Do you guys want to wear the same color shirt? <span class="char3">(你们要不要穿一样颜色的衣服？)</span>
+      </h4>
+      <div class="container">
+        <ul class="ks-cboxtags2">
+          <li><input type="radio" id="shirtYes" name="shirt" value="Yes"><label for="shirtYes">YES 😆<span class="cclass">（要😆）</span></label></li>
+          <li><input type="radio" id="shirtNo" name="shirt" value="No"><label for="shirtNo">Nooo 😔 <span class="cclass">（否😔）</span></label></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question5">
+      <h4>
+        If you choose yes. What color do you guys wanna wear? <span class="char3">(如果你们选择要。你们要穿什么颜色的衣服？)</span>
+      </h4>
+      <div class="container">
+        <label for="shirt">
+          <div class="input-container">
+            <input type="text" id="cshirt" name="cshirt" required>
+            <span class="underline"></span>
+          </div>
+        </label>
+      </div>
+    </div>
+    </div>
+    <div class="button-container">
+    <!-- Buttons -->
+      <button class="button1" type="button" onclick="goBack()"> Back </button>
+      <button class="button2" type="button" onclick="goSubmit()"> Submit </button>
+    </div>
+    <!-- Redirect after submit -->
+    <input type="hidden" name="_next" value="ThankYou.html">
+
+  </form>
+  </div>
+  <!-- END FORM -->
+
+  <script>
+  // Fill hidden inputs from Invitation (sessionStorage)
+  document.getElementById("hiddenName").value = sessionStorage.getItem("name") || "";
+  document.getElementById("hiddenCname").value = sessionStorage.getItem("cname") || "";
+
+  // Back button
+  function goBack() {
+    window.location.href = "index.html";
+  }
+  // Submit button → collect data + send to Formspree
+  function goSubmit() {
+    const form = document.querySelector("form");
+    
+    // Use FormData to collect everything
+    const formData = new FormData(form);
+
+    // Send to Formspree via fetch
+    fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => {
+      if (response.ok) {
+        // Redirect to ThankYou.html after success
+        window.location.href = "thankyou.html";
+      } else {
+        alert("Something went wrong. Please try again.");
+      }
+    })
+    .catch(error => {
+      alert("Error: " + error.message);
+    });
+  }
+</script>
+
+</body>
+</html>

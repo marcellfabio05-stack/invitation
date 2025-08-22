@@ -1,0 +1,111 @@
+body {
+           background: #F5F5DC;
+           display: flex; 
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           margin-top: 40px;
+        }
+        .welcome-card {
+            background: #FAF5E4;
+            font-family: Ma Shan Zheng;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(218,165,32,0.45);
+            text-align: center;
+            margin-bottom: 20px; /* space between welcome and form */
+            max-width: 280px;
+        }
+        .ask-card {
+            background: #FAF5E4;
+            font-family: EDU NSW ACT Cursive;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 12px;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(218,165,32,0.45);
+            text-align: center;
+            margin-bottom: 20px; /* space between welcome and form */
+            max-width: 286px;
+        }
+        .form-container1 {
+            background: #FAF5E4;
+            border-radius: 12px;
+            padding: 10px; 
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(218,165,32,0.45);
+            text-align: left;
+            font-weight: bold;
+            margin-bottom: 20px; /* space between welcome and form */
+            padding-left: 20px;
+            min-width: 276px;
+        }
+        h2, h1 {
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 7px;
+        }
+        .head2 {
+            color: #D32F2F;
+        }
+        p {
+            padding-left: 8px;
+            font-size: 18px;
+            text-align: left;
+            font-size: 16px;
+        }
+        #cname, #name {
+            padding-bottom: 5px;
+        }
+        .input-container {
+            position: relative;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-family: EDU NSW ACT Cursive;
+            font-size: 15px;
+            padding-top: -30px;
+        }   
+        input {
+            width: 100%;
+            border: none;                       /* remove box border */
+            border-bottom: 2px solid #D3D3D3;    /* only bottom line */
+            padding-bottom: 3px;
+            font-size: 14px;
+            outline: none;                      /* remove highlight outline */
+            background: transparent;
+
+        }
+        .underline {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            width: 0;
+            background: #000000;
+            transition: width 0.3s ease, background 0.3s ease;
+        }
+        .input-container input:focus + .underline {
+            width: 102%;
+            background: #000000;    
+        }
+        button {
+            background-color: #006400;  /* Green background */
+            color: #FAF5E4;              /* #FAF5E4 text */
+            padding: 5px 20px;        /* Bigger size */
+            border: none;              /* Remove border */
+            border-radius: 20px;       /* Rounded pill shape */
+            font-size: 16px;           /* Larger font */
+            font-weight: bold;         /* Bold text */
+            cursor: pointer;           /* Hand cursor on hover */ /* Smooth animation */
+            display: block;            /* Make it block-level */
+            margin-top: 3px;          /* Space above */
+            margin-left: 200px;            /* Stick to left */
+        }
+        button:hover {
+            background-color: #228B22;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }

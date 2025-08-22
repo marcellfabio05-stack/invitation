@@ -1,0 +1,46 @@
+body {
+    background: #F5F5DC;
+    display: flex; 
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.ThankYou-card {
+    background: #FAF5E4;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(218,165,32,0.45);
+    text-align: center;
+    margin-bottom: 20px; /* space between welcome and form */
+    max-width: 286px;
+}
+h3 {
+    font-family: Edu NSW Act Cursive;
+    font-size: 18px;
+}
+h2 {
+    font-family: Ma Shan Zheng;
+    font-size: 25px;
+}
+h3, h2 {
+    margin: 15px;
+}
+button {
+     background-color: #006400;  /* Green background */
+     color: white;              /* White text */
+     padding: 5px 20px;        /* Bigger size */
+     border: none;              /* Remove border */
+     border-radius: 20px;       /* Rounded pill shape */
+     font-size: 16px;           /* Larger font */
+     font-weight: bold;         /* Bold text */
+     cursor: pointer;           /* Hand cursor on hover */ /* Smooth animation */
+     display: block;            /* Make it block-level */
+     margin-top: 3px;          /* Space above */
+}
+button:hover {
+    background-color: #228B22;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
